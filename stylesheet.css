@@ -1,0 +1,41 @@
+
+hr {color:sienna;}
+p {margin-left:20px;}
+
+body {background-color:#b0c4de;}
+
+
+label
+{
+width: 4em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
+
+form {  
+  border: 1px solid #666699;  
+  padding: 5px;  
+  text-align: center;
+}  
+
+
+#headline1 {
+      background-image: url("images/mrFaulty");
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:68px;
+      margin-bottom:50px;
+   }
+
+   #header{
+width:660px;
+height: 200px;
+margin:0 auto 10px;
+border:1px solid $bordercolor;
+background:url(images/mrFaulty.png) center no-repeat;
+background-position:  top;
+}
+

@@ -1,0 +1,978 @@
+[11:04:28.929] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:04:29.225] resin-file: init
+[11:04:42.241] insert Data: init
+[11:08:23.411] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[11:08:23.411] resin-file: destroy
+[11:08:23.411] insert Data: destroy
+[11:08:23.536] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:08:23.536] insert Data: init
+[11:09:35.286] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[11:09:35.286] insert Data: destroy
+[11:14:30.909] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:14:30.909] insert Data: init
+[11:17:44.673] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[11:17:44.673] insert Data: destroy
+[11:17:44.783] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:17:44.783] insert Data: init
+[11:19:59.344] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[11:19:59.344] insert Data: destroy
+[11:19:59.454] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:19:59.454] insert Data: init
+[11:46:07.413] Compiling _jsp/_reportfault__jsp.java
+[11:47:24.568] Compiling _jsp/_reportfault__jsp.java
+[11:56:02.284] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[11:56:02.284] insert Data: destroy
+[11:59:31.954] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[11:59:31.954] insert Data: init
+[12:09:10.279] Compiling _jsp/_reportfault__jsp.java
+[12:12:36.996] Compiling _jsp/_reportfault__jsp.java
+[12:22:10.586] resin-file: init
+[14:36:26.949] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[14:36:27.043] resin-file: destroy
+[14:36:27.090] insert Data: destroy
+[14:41:40.525] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[19:58:40.017] insert Data: init
+[20:51:44.284] Compiling _jsp/_success__jsp.java
+[20:51:44.284] /success.jsp:27: illegal start of expression
+[20:51:44.284] out.print("UserID:"+session.getAttribute("sUserID")+"<br>");<br><br>
+[20:51:44.284]                                                                 ^
+[20:51:44.284] 1 error
+[20:52:41.987] Compiling _jsp/_success__jsp.java
+[20:52:42.003] /success.jsp:27: illegal start of expression
+[20:52:42.003] out.print("UserID:"+session.getAttribute("sUserID")+"<br>");<br><br>
+[20:52:42.003]                                                                 ^
+[20:52:42.003] 1 error
+[20:52:43.315] Compiling _jsp/_success__jsp.java
+[20:52:43.331] /success.jsp:27: illegal start of expression
+[20:52:43.331] out.print("UserID:"+session.getAttribute("sUserID")+"<br>");<br><br>
+[20:52:43.331]                                                                 ^
+[20:52:43.331] 1 error
+[20:52:49.409] Compiling _jsp/_success__jsp.java
+[20:52:49.424] /success.jsp:27: illegal start of expression
+[20:52:49.424] out.print("UserID:"+session.getAttribute("sUserID")+"<br>");<br><br>
+[20:52:49.424]                                                                 ^
+[20:52:49.424] 1 error
+[20:53:17.034] Compiling _jsp/_success__jsp.java
+[20:53:20.018] Compiling _jsp/_viewfaults__jsp.java
+[20:53:20.346] /ViewFaults.jsp:31: cannot find symbol
+[20:53:20.346] symbol  : class Connection
+[20:53:20.346] location: class _jsp._viewfaults__jsp
+[20:53:20.346]         Connection connection= null;
+[20:53:20.346]         ^
+[20:53:20.346] /ViewFaults.jsp:34: cannot find symbol
+[20:53:20.346] symbol  : variable DriverManager
+[20:53:20.346] location: class _jsp._viewfaults__jsp
+[20:53:20.346]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[20:53:20.346]                    ^
+[20:53:20.346] /ViewFaults.jsp:36: cannot find symbol
+[20:53:20.346] symbol  : class PreparedStatement
+[20:53:20.346] location: class _jsp._viewfaults__jsp
+[20:53:20.346]                 PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[20:53:20.346]                 ^
+[20:53:20.346] 3 errors
+[20:57:41.532] Compiling _jsp/_viewfaults__jsp.java
+[20:57:41.860] /ViewFaults.jsp:40: cannot find symbol
+[20:57:41.860] symbol  : class Connection
+[20:57:41.860] location: class _jsp._viewfaults__jsp
+[20:57:41.860]         Connection connection= null;
+[20:57:41.860]         ^
+[20:57:41.860] /ViewFaults.jsp:43: cannot find symbol
+[20:57:41.860] symbol  : variable DriverManager
+[20:57:41.860] location: class _jsp._viewfaults__jsp
+[20:57:41.860]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[20:57:41.860]                    ^
+[20:57:41.860] /ViewFaults.jsp:45: cannot find symbol
+[20:57:41.860] symbol  : class PreparedStatement
+[20:57:41.860] location: class _jsp._viewfaults__jsp
+[20:57:41.860]                 PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[20:57:41.860]                 ^
+[20:57:41.860] 3 errors
+[20:57:41.891] Compiling _jsp/_viewfaults__jsp.java
+[20:57:42.219] /ViewFaults.jsp:40: cannot find symbol
+[20:57:42.219] symbol  : class Connection
+[20:57:42.219] location: class _jsp._viewfaults__jsp
+[20:57:42.219]         Connection connection= null;
+[20:57:42.219]         ^
+[20:57:42.219] /ViewFaults.jsp:43: cannot find symbol
+[20:57:42.219] symbol  : variable DriverManager
+[20:57:42.219] location: class _jsp._viewfaults__jsp
+[20:57:42.219]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[20:57:42.219]                    ^
+[20:57:42.219] /ViewFaults.jsp:45: cannot find symbol
+[20:57:42.219] symbol  : class PreparedStatement
+[20:57:42.219] location: class _jsp._viewfaults__jsp
+[20:57:42.219]                 PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[20:57:42.219]                 ^
+[20:57:42.219] 3 errors
+[21:33:08.096] Compiling theView.java
+[21:33:08.393] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[21:33:08.393]       Class.forName("org.gjt.mm.mysql.Driver");
+[21:33:08.393]                    ^
+[21:33:08.393] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:08.393]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[21:33:08.393]                                               ^
+[21:33:08.393] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:08.393]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[21:33:08.393]                                                          ^
+[21:33:08.393] 3 errors
+[21:33:15.034] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[21:33:15.034] insert Data: destroy
+[21:33:15.206] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[21:33:23.971] Compiling theView.java
+[21:33:24.253] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[21:33:24.253]       Class.forName("org.gjt.mm.mysql.Driver");
+[21:33:24.253]                    ^
+[21:33:24.253] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:24.253]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[21:33:24.253]                                               ^
+[21:33:24.253] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:24.253]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[21:33:24.253]                                                          ^
+[21:33:24.253] 3 errors
+[21:33:42.112] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[21:33:42.206] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[21:33:42.221] Compiling theView.java
+[21:33:42.503] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[21:33:42.503]       Class.forName("org.gjt.mm.mysql.Driver");
+[21:33:42.503]                    ^
+[21:33:42.503] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:42.503]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[21:33:42.503]                                               ^
+[21:33:42.503] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:42.503]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[21:33:42.503]                                                          ^
+[21:33:42.503] 3 errors
+[21:33:46.362] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[21:33:46.440] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[21:33:46.456] Compiling theView.java
+[21:33:46.737] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[21:33:46.737]       Class.forName("org.gjt.mm.mysql.Driver");
+[21:33:46.737]                    ^
+[21:33:46.737] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:46.737]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[21:33:46.737]                                               ^
+[21:33:46.737] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:33:46.737]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[21:33:46.737]                                                          ^
+[21:33:46.737] 3 errors
+[21:34:23.596] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[21:34:23.690] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[21:34:23.705] Compiling theView.java
+[21:34:23.987] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[21:34:23.987]       Class.forName("org.gjt.mm.mysql.Driver");
+[21:34:23.987]                    ^
+[21:34:23.987] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:34:23.987]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[21:34:23.987]                                               ^
+[21:34:23.987] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[21:34:23.987]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[21:34:23.987]                                                          ^
+[21:34:23.987] 3 errors
+[21:34:34.065] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[21:34:34.158] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[22:05:46.896] Compiling theView.java
+[22:05:47.178] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[22:05:47.178]       Class.forName("org.gjt.mm.mysql.Driver");
+[22:05:47.178]                    ^
+[22:05:47.178] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:05:47.178]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[22:05:47.178]                                               ^
+[22:05:47.178] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:05:47.178]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[22:05:47.178]                                                          ^
+[22:05:47.178] 3 errors
+[22:06:02.740] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[22:06:02.818] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[22:06:02.834] Compiling theView.java
+[22:06:03.131] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[22:06:03.131]       Class.forName("org.gjt.mm.mysql.Driver");
+[22:06:03.131]                    ^
+[22:06:03.131] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:06:03.131]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[22:06:03.131]                                               ^
+[22:06:03.131] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:06:03.131]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[22:06:03.131]                                                          ^
+[22:06:03.131] 3 errors
+[22:06:27.006] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[22:06:27.099] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[22:06:27.115] Compiling theView.java
+[22:06:27.396] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:39: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+[22:06:27.396]       Class.forName("org.gjt.mm.mysql.Driver");
+[22:06:27.396]                    ^
+[22:06:27.396] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:40: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:06:27.396]       connection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[22:06:27.396]                                               ^
+[22:06:27.396] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:42: unreported exception java.sql.SQLException; must be caught or declared to be thrown
+[22:06:27.396]       PreparedStatement pst = connection.prepareStatement("SELECT * FROM report_faults");
+[22:06:27.396]                                                          ^
+[22:06:27.396] 3 errors
+[22:07:27.052] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[22:07:27.146] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[22:07:58.911] Compiling theView.java
+[22:07:58.911] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:11: unclosed comment
+[22:07:58.911] /*
+[22:07:58.911] ^
+[22:07:58.911] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:51: 'class' or 'interface' expected
+[22:07:58.911] ^
+[22:07:58.911] 2 errors
+[22:08:27.052] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[22:08:27.145] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[22:08:33.880] Compiling _jsp/_login__jsp.java
+[22:08:34.317] resin-file: init
+[10:50:12.983] Compiling _jsp/_success__jsp.java
+[10:50:34.015] Compiling _jsp/_reportfault__jsp.java
+[10:54:13.576] Compiling _jsp/_success__jsp.java
+[12:47:30.032] Compiling _jsp/_success__jsp.java
+[12:52:10.265] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[12:52:10.265] resin-file: destroy
+[12:53:02.905] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[12:54:41.967] resin-file: init
+[12:58:31.262] Compiling _jsp/_login__jsp.java
+[13:06:44.275] Compiling _jsp/_viewfaults__jsp.java
+[13:12:49.601] Compiling theView.java
+[13:12:49.616] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:11: unclosed comment
+[13:12:49.616] /*
+[13:12:49.616] ^
+[13:12:49.616] d:\www\2012-ac31004\jamesrichmond\WEB-INF\classes\theView.java:51: 'class' or 'interface' expected
+[13:12:49.616] ^
+[13:12:49.616] 2 errors
+[13:13:04.772] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[13:13:04.772] resin-file: destroy
+[13:13:04.866] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[13:14:41.990] Compiling _jsp/_success__jsp.java
+[13:14:42.506] resin-file: init
+[13:16:00.396] Compiling _jsp/_success__jsp.java
+[13:17:17.177] Compiling _jsp/_success__jsp.java
+[13:17:17.193] /success.jsp:30: illegal start of expression
+[13:17:17.193] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:17:17.193]                                             ^
+[13:17:17.193] /success.jsp:30: ')' expected
+[13:17:17.193] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:17:17.193]                                                                   ^
+[13:17:17.193] /success.jsp:31: illegal start of expression
+[13:17:17.193] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:17:17.193]                                                         ^
+[13:17:17.193] /success.jsp:31: ')' expected
+[13:17:17.193] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:17:17.193]                                                          ^
+[13:17:17.193] 4 errors
+[13:23:17.003] Compiling _jsp/_success__jsp.java
+[13:23:17.018] /success.jsp:30: illegal start of expression
+[13:23:17.018] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:17.018]                                             ^
+[13:23:17.018] /success.jsp:30: ')' expected
+[13:23:17.018] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:17.018]                                                                   ^
+[13:23:17.018] /success.jsp:31: illegal start of expression
+[13:23:17.018] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:17.018]                                                         ^
+[13:23:17.018] /success.jsp:31: ')' expected
+[13:23:17.018] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:17.018]                                                          ^
+[13:23:17.018] 4 errors
+[13:23:19.096] Compiling _jsp/_success__jsp.java
+[13:23:19.112] /success.jsp:30: illegal start of expression
+[13:23:19.112] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:19.112]                                             ^
+[13:23:19.112] /success.jsp:30: ')' expected
+[13:23:19.112] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:19.112]                                                                   ^
+[13:23:19.112] /success.jsp:31: illegal start of expression
+[13:23:19.112] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:19.112]                                                         ^
+[13:23:19.112] /success.jsp:31: ')' expected
+[13:23:19.112] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:19.112]                                                          ^
+[13:23:19.112] 4 errors
+[13:23:38.143] Compiling _jsp/_success__jsp.java
+[13:23:38.159] /success.jsp:30: illegal start of expression
+[13:23:38.159] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:38.159]                                             ^
+[13:23:38.159] /success.jsp:30: ')' expected
+[13:23:38.159] out.print("UserID:"+session.getAttribute(<b>"sUserID"</b>)+"<br>");
+[13:23:38.159]                                                                   ^
+[13:23:38.159] /success.jsp:31: illegal start of expression
+[13:23:38.159] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:38.159]                                                         ^
+[13:23:38.159] /success.jsp:31: ')' expected
+[13:23:38.159] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:23:38.159]                                                          ^
+[13:23:38.159] 4 errors
+[13:24:07.721] Compiling _jsp/_success__jsp.java
+[13:24:07.737] /success.jsp:31: illegal start of expression
+[13:24:07.737] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:24:07.737]                                                         ^
+[13:24:07.737] /success.jsp:31: ')' expected
+[13:24:07.737] out.print("Username:"+session.getAttribute("sUserName")+);
+[13:24:07.737]                                                          ^
+[13:24:07.737] 2 errors
+[13:24:28.127] Compiling _jsp/_success__jsp.java
+[13:28:14.470] Compiling _jsp/_reportfault__jsp.java
+[13:28:23.516] insert Data: init
+[13:41:15.808] Compiling _jsp/_viewfaults__jsp.java
+[13:41:15.855] /ViewFaults.jsp:43: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:43: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:46: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 rs = st.executeQuery(strQuery);
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:46: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 rs = st.executeQuery(strQuery);
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:47: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 int count=0;
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:47: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 int count=0;
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:48: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 while(rs.next())
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:48: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 while(rs.next())
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:49: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 {
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:49: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 {
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:50: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:50: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:50: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:15.855]                     ^
+[13:41:15.855] /ViewFaults.jsp:51: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0count++;
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:51: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0count++;
+[13:41:15.855]              ^
+[13:41:15.855] /ViewFaults.jsp:51: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 \u00a0count++;
+[13:41:15.855]                     ^
+[13:41:15.855] /ViewFaults.jsp:52: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 }
+[13:41:15.855]       ^
+[13:41:15.855] /ViewFaults.jsp:52: illegal character: \160
+[13:41:15.855]  \u00a0 \u00a0 }
+[13:41:15.855]              ^
+[13:41:15.855] 18 errors
+[13:41:48.793] Compiling _jsp/_viewfaults__jsp.java
+[13:41:48.824] /ViewFaults.jsp:45: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 rs = st.executeQuery(strQuery);
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:45: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 rs = st.executeQuery(strQuery);
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:46: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 int count=0;
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:46: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 int count=0;
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:47: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 while(rs.next())
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:47: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 while(rs.next())
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:48: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 {
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:48: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 {
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:49: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:49: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:49: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0out.println(rs.getString(0));
+[13:41:48.824]                     ^
+[13:41:48.824] /ViewFaults.jsp:50: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0count++;
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:50: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0count++;
+[13:41:48.824]              ^
+[13:41:48.824] /ViewFaults.jsp:50: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 \u00a0count++;
+[13:41:48.824]                     ^
+[13:41:48.824] /ViewFaults.jsp:51: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 }
+[13:41:48.824]       ^
+[13:41:48.824] /ViewFaults.jsp:51: illegal character: \160
+[13:41:48.824]  \u00a0 \u00a0 }
+[13:41:48.824]              ^
+[13:41:48.824] 16 errors
+[13:43:01.636] Compiling _jsp/_viewfaults__jsp.java
+[13:43:01.964] /ViewFaults.jsp:36: cannot find symbol
+[13:43:01.964] symbol  : class Connection
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       Connection conn= null;
+[13:43:01.964]       ^
+[13:43:01.964] /ViewFaults.jsp:39: cannot find symbol
+[13:43:01.964] symbol  : variable DriverManager
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       conn= DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/jamesrichmond","jamesrichmond","ac31004");
+[13:43:01.964]             ^
+[13:43:01.964] /ViewFaults.jsp:44: cannot find symbol
+[13:43:01.964] symbol  : variable st
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       st = conn.createStatement();
+[13:43:01.964]       ^
+[13:43:01.964] /ViewFaults.jsp:45: cannot find symbol
+[13:43:01.964] symbol  : variable rs
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       rs = st.executeQuery(strQuery);
+[13:43:01.964]       ^
+[13:43:01.964] /ViewFaults.jsp:45: cannot find symbol
+[13:43:01.964] symbol  : variable strQuery
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       rs = st.executeQuery(strQuery);
+[13:43:01.964]                            ^
+[13:43:01.964] /ViewFaults.jsp:45: cannot find symbol
+[13:43:01.964] symbol  : variable st
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       rs = st.executeQuery(strQuery);
+[13:43:01.964]            ^
+[13:43:01.964] /ViewFaults.jsp:48: cannot find symbol
+[13:43:01.964] symbol  : variable rs
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]       while(rs.next())
+[13:43:01.964]             ^
+[13:43:01.964] /ViewFaults.jsp:50: cannot find symbol
+[13:43:01.964] symbol  : variable rs
+[13:43:01.964] location: class _jsp._viewfaults__jsp
+[13:43:01.964]         out.println(rs.getString(0));
+[13:43:01.964]                     ^
+[13:43:01.964] 8 errors
+[13:45:09.291] Compiling _jsp/_viewfaults__jsp.java
+[13:45:09.619] /ViewFaults.jsp:44: cannot find symbol
+[13:45:09.619] symbol  : variable st
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]       st = conn.createStatement();
+[13:45:09.619]       ^
+[13:45:09.619] /ViewFaults.jsp:45: cannot find symbol
+[13:45:09.619] symbol  : variable rs
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]       rs = st.executeQuery(strQuery);
+[13:45:09.619]       ^
+[13:45:09.619] /ViewFaults.jsp:45: cannot find symbol
+[13:45:09.619] symbol  : variable strQuery
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]       rs = st.executeQuery(strQuery);
+[13:45:09.619]                            ^
+[13:45:09.619] /ViewFaults.jsp:45: cannot find symbol
+[13:45:09.619] symbol  : variable st
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]       rs = st.executeQuery(strQuery);
+[13:45:09.619]            ^
+[13:45:09.619] /ViewFaults.jsp:48: cannot find symbol
+[13:45:09.619] symbol  : variable rs
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]       while(rs.next())
+[13:45:09.619]             ^
+[13:45:09.619] /ViewFaults.jsp:50: cannot find symbol
+[13:45:09.619] symbol  : variable rs
+[13:45:09.619] location: class _jsp._viewfaults__jsp
+[13:45:09.619]         out.println(rs.getString(0));
+[13:45:09.619]                     ^
+[13:45:09.619] 6 errors
+[13:46:28.791] Compiling _jsp/_viewfaults__jsp.java
+[13:46:29.119] /ViewFaults.jsp:45: cannot find symbol
+[13:46:29.119] symbol  : variable strQuery
+[13:46:29.119] location: class _jsp._viewfaults__jsp
+[13:46:29.119]       ResultSet  rs = st.executeQuery(strQuery);
+[13:46:29.119]                                       ^
+[13:46:29.119] 1 error
+[13:46:48.931] Compiling _jsp/_viewfaults__jsp.java
+[13:46:49.369] javax.servlet.ServletException: java.sql.SQLException: Column Index out of range, 0 < 1.
+[13:46:49.369] 	at com.caucho.jsp.PageContextImpl.handlePageException(PageContextImpl.java:1114)
+[13:46:49.369] 	at _jsp._viewfaults__jsp._jspService(_viewfaults__jsp.java:60)
+[13:46:49.369] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[13:46:49.369] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[13:46:49.369] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[13:46:49.369] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[13:46:49.369] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[13:46:49.369] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[13:46:49.369] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[13:46:49.369] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[13:46:49.369] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[13:46:49.369] 	at java.lang.Thread.run(Thread.java:595)
+[13:46:49.369] Caused by: java.sql.SQLException: Column Index out of range, 0 < 1.
+[13:46:49.369] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+[13:46:49.369] 	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:684)
+[13:46:49.369] 	at com.mysql.jdbc.ResultSet.getStringInternal(ResultSet.java:5625)
+[13:46:49.369] 	at com.mysql.jdbc.ResultSet.getString(ResultSet.java:5544)
+[13:46:49.369] 	at _jsp._viewfaults__jsp._jspService(_viewfaults__jsp.java:52)
+[13:46:49.369] 	... 10 more
+[13:47:53.462] Compiling _jsp/_viewfaults__jsp.java
+[13:51:50.945] Compiling _jsp/_viewfaults__jsp.java
+[13:51:50.976] /ViewFaults.jsp:54: ')' expected
+[13:51:50.976]         out.println(rs.getString(1) + " " + rs.getString(2);
+[13:51:50.976]                                                            ^
+[13:51:50.976] 1 error
+[13:52:08.382] Compiling _jsp/_viewfaults__jsp.java
+[13:52:08.398] /ViewFaults.jsp:54: ')' expected
+[13:52:08.398]         out.println(rs.getString(1) + " " + rs.getString(2);
+[13:52:08.398]                                                            ^
+[13:52:08.398] 1 error
+[13:52:09.273] Compiling _jsp/_viewfaults__jsp.java
+[13:52:09.273] /ViewFaults.jsp:54: ')' expected
+[13:52:09.273]         out.println(rs.getString(1) + " " + rs.getString(2);
+[13:52:09.273]                                                            ^
+[13:52:09.273] 1 error
+[13:52:09.804] Compiling _jsp/_viewfaults__jsp.java
+[13:52:09.820] /ViewFaults.jsp:54: ')' expected
+[13:52:09.820]         out.println(rs.getString(1) + " " + rs.getString(2);
+[13:52:09.820]                                                            ^
+[13:52:09.820] 1 error
+[13:53:07.382] Compiling _jsp/_viewfaults__jsp.java
+[13:53:07.398] /ViewFaults.jsp:50: ')' expected
+[13:53:07.398]         out.println(rs.getString(1) + rs.getString(2);
+[13:53:07.398]                                                      ^
+[13:53:07.398] 1 error
+[13:53:22.585] Compiling _jsp/_viewfaults__jsp.java
+[14:21:21.387] Compiling _jsp/_viewfaults__jsp.java
+[14:21:21.402] /ViewFaults.jsp:50: ')' expected
+[14:21:21.402]         out.println("Fault ID:" rs.getString(1) + rs.getString(2) + rs.getString(3) rs.getString(4)) ;
+[14:21:21.402]                                 ^
+[14:21:21.402] 1 error
+[14:22:00.043] Compiling _jsp/_viewfaults__jsp.java
+[14:23:20.558] Compiling _jsp/_viewfaults__jsp.java
+[14:24:40.464] Compiling _jsp/_viewfaults__jsp.java
+[14:26:38.666] Compiling _jsp/_viewfaults__jsp.java
+[14:26:38.697] /ViewFaults.jsp:51: illegal start of expression
+[14:26:38.697]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:26:38.697]                                                                                              ^
+[14:26:38.697] /ViewFaults.jsp:51: ')' expected
+[14:26:38.697]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:26:38.697]                                                                                               ^
+[14:26:38.697] 2 errors
+[14:26:40.697] Compiling _jsp/_viewfaults__jsp.java
+[14:26:40.713] /ViewFaults.jsp:51: illegal start of expression
+[14:26:40.713]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:26:40.713]                                                                                              ^
+[14:26:40.713] /ViewFaults.jsp:51: ')' expected
+[14:26:40.713]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:26:40.713]                                                                                               ^
+[14:26:40.713] 2 errors
+[14:27:25.353] Compiling _jsp/_viewfaults__jsp.java
+[14:27:25.384] /ViewFaults.jsp:51: illegal start of expression
+[14:27:25.384]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:27:25.384]                                                                                              ^
+[14:27:25.384] /ViewFaults.jsp:51: ')' expected
+[14:27:25.384]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:27:25.384]                                                                                               ^
+[14:27:25.384] 2 errors
+[14:27:26.759] Compiling _jsp/_viewfaults__jsp.java
+[14:27:26.775] /ViewFaults.jsp:51: illegal start of expression
+[14:27:26.775]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:27:26.775]                                                                                              ^
+[14:27:26.775] /ViewFaults.jsp:51: ')' expected
+[14:27:26.775]         out.println( rs.getString(1) + rs.getString(2) + rs.getString(3) + rs.getString(4) + );
+[14:27:26.775]                                                                                               ^
+[14:27:26.775] 2 errors
+[14:27:46.306] Compiling _jsp/_viewfaults__jsp.java
+[14:35:55.721] Compiling _jsp/_viewfaults__jsp.java
+[14:39:18.973] Compiling _jsp/_viewfaults__jsp.java
+[14:40:46.067] Compiling _jsp/_viewfaults__jsp.java
+[14:40:46.410] /ViewFaults.jsp:52: cannot find symbol
+[14:40:46.410] symbol  : variable line
+[14:40:46.410] location: class _jsp._viewfaults__jsp
+[14:40:46.410]         System.getProperty(line.seperator);
+[14:40:46.410]                            ^
+[14:40:46.410] 1 error
+[14:41:29.598] Compiling _jsp/_viewfaults__jsp.java
+[14:42:46.957] Compiling _jsp/_viewfaults__jsp.java
+[14:45:02.785] Compiling _jsp/_viewfaults__jsp.java
+11 James null null
+
+
+12 sfsf null null
+
+
+13 kyr null null
+
+
+14 kyr svs null
+
+
+15 kyr  null
+
+
+16 kyr v 1
+
+
+17 kyr sc 4
+
+
+18 kyr sc 4
+
+
+19 kyr  Relatively Minor
+
+
+20 kyr adsjasdkasdjasjascacacackac Relatively Major
+
+
+21 kyr kugjg Medium
+
+
+22 kyr ljljad Major
+
+
+23 kyr efjwfkj Minor
+
+
+11 James null null
+
+
+12 sfsf null null
+
+
+13 kyr null null
+
+
+14 kyr svs null
+
+
+15 kyr  null
+
+
+16 kyr v 1
+
+
+17 kyr sc 4
+
+
+18 kyr sc 4
+
+
+19 kyr  Relatively Minor
+
+
+20 kyr adsjasdkasdjasjascacacackac Relatively Major
+
+
+21 kyr kugjg Medium
+
+
+22 kyr ljljad Major
+
+
+23 kyr efjwfkj Minor
+
+
+11 James null null
+
+
+12 sfsf null null
+
+
+13 kyr null null
+
+
+14 kyr svs null
+
+
+15 kyr  null
+
+
+16 kyr v 1
+
+
+17 kyr sc 4
+
+
+18 kyr sc 4
+
+
+19 kyr  Relatively Minor
+
+
+20 kyr adsjasdkasdjasjascacacackac Relatively Major
+
+
+21 kyr kugjg Medium
+
+
+22 kyr ljljad Major
+
+
+23 kyr efjwfkj Minor
+
+
+[14:45:48.848] Compiling _jsp/_viewfaults__jsp.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[14:48:05.097] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[14:48:05.097] resin-file: destroy
+[14:48:05.097] insert Data: destroy
+[14:51:05.846] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[14:58:51.124] Compiling _jsp/_viewfaults__jsp.java
+[14:58:51.140] /ViewFaults.jsp:27: not a statement
+[14:58:51.140]       page import=
+[14:58:51.140]       ^
+[14:58:51.140] /ViewFaults.jsp:27: ';' expected
+[14:58:51.140]       page import=
+[14:58:51.140]            ^
+[14:58:51.140] 2 errors
+[14:59:15.968] Compiling _jsp/_viewfaults__jsp.java
+[14:59:16.780] resin-file: init
+[15:01:28.389] Compiling _jsp/_viewfaults__jsp.java
+[15:02:04.826] Compiling _jsp/_viewfaults__jsp.java
+[15:03:58.684] Compiling _jsp/_viewfaults__jsp.java
+[15:04:45.262] Compiling _jsp/_viewfaults__jsp.java
+[15:06:29.074] Compiling _jsp/_viewfaults__jsp.java
+[15:17:37.523] Compiling _jsp/_login__jsp.java
+[15:18:26.507] Compiling _jsp/_login__jsp.java
+[15:18:52.882] Compiling _jsp/_login__jsp.java
+[15:19:27.554] Compiling _jsp/_login__jsp.java
+[15:28:04.160] Compiling _jsp/_viewfaults__jsp.java
+[15:34:57.266] Compiling _jsp/_viewfaults__jsp.java
+[15:34:57.282] /ViewFaults.jsp:87: 'catch' without 'try'
+[15:34:57.282]     } catch (java.lang.Throwable _jsp_e) {
+[15:34:57.282]       ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:27: 'try' without 'catch' or 'finally'
+[15:34:57.282]     try {
+[15:34:57.282]     ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:76: illegal start of expression
+[15:34:57.282]   private java.util.ArrayList _caucho_depends = new java.util.ArrayList();
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:78: illegal start of expression
+[15:34:57.282]   public java.util.ArrayList _caucho_getDependList()
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:132: illegal start of expression
+[15:34:57.282]   private final static char []_jsp_string4;
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:133: illegal start of expression
+[15:34:57.282]   private final static char []_jsp_string1;
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:134: illegal start of expression
+[15:34:57.282]   private final static char []_jsp_string2;
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:135: illegal start of expression
+[15:34:57.282]   private final static char []_jsp_string3;
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:136: illegal start of expression
+[15:34:57.282]   static {
+[15:34:57.282]   ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:143: ';' expected
+[15:34:57.282] }
+[15:34:57.282] ^
+[15:34:57.282] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:144: '}' expected
+[15:34:57.282] ^
+[15:34:57.282] 11 errors
+[15:37:37.203] Compiling _jsp/_viewfaults__jsp.java
+[15:37:37.218] /ViewFaults.jsp:69: 'catch' without 'try'
+[15:37:37.218]     } catch (java.lang.Throwable _jsp_e) {
+[15:37:37.218]       ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:27: 'try' without 'catch' or 'finally'
+[15:37:37.218]     try {
+[15:37:37.218]     ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:64: illegal start of expression
+[15:37:37.218]   private java.util.ArrayList _caucho_depends = new java.util.ArrayList();
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:66: illegal start of expression
+[15:37:37.218]   public java.util.ArrayList _caucho_getDependList()
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:120: illegal start of expression
+[15:37:37.218]   private final static char []_jsp_string1;
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:121: illegal start of expression
+[15:37:37.218]   private final static char []_jsp_string3;
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:122: illegal start of expression
+[15:37:37.218]   private final static char []_jsp_string2;
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:123: illegal start of expression
+[15:37:37.218]   static {
+[15:37:37.218]   ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:129: ';' expected
+[15:37:37.218] }
+[15:37:37.218] ^
+[15:37:37.218] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:130: '}' expected
+[15:37:37.218] ^
+[15:37:37.218] 10 errors
+[15:37:38.359] Compiling _jsp/_viewfaults__jsp.java
+[15:37:38.359] /ViewFaults.jsp:69: 'catch' without 'try'
+[15:37:38.359]     } catch (java.lang.Throwable _jsp_e) {
+[15:37:38.359]       ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:27: 'try' without 'catch' or 'finally'
+[15:37:38.359]     try {
+[15:37:38.359]     ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:64: illegal start of expression
+[15:37:38.359]   private java.util.ArrayList _caucho_depends = new java.util.ArrayList();
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:66: illegal start of expression
+[15:37:38.359]   public java.util.ArrayList _caucho_getDependList()
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:120: illegal start of expression
+[15:37:38.359]   private final static char []_jsp_string1;
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:121: illegal start of expression
+[15:37:38.359]   private final static char []_jsp_string3;
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:122: illegal start of expression
+[15:37:38.359]   private final static char []_jsp_string2;
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:123: illegal start of expression
+[15:37:38.359]   static {
+[15:37:38.359]   ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:129: ';' expected
+[15:37:38.359] }
+[15:37:38.359] ^
+[15:37:38.359] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:130: '}' expected
+[15:37:38.359] ^
+[15:37:38.359] 10 errors
+[15:37:39.093] Compiling _jsp/_viewfaults__jsp.java
+[15:37:39.109] /ViewFaults.jsp:69: 'catch' without 'try'
+[15:37:39.109]     } catch (java.lang.Throwable _jsp_e) {
+[15:37:39.109]       ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:27: 'try' without 'catch' or 'finally'
+[15:37:39.109]     try {
+[15:37:39.109]     ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:64: illegal start of expression
+[15:37:39.109]   private java.util.ArrayList _caucho_depends = new java.util.ArrayList();
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:66: illegal start of expression
+[15:37:39.109]   public java.util.ArrayList _caucho_getDependList()
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:120: illegal start of expression
+[15:37:39.109]   private final static char []_jsp_string1;
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:121: illegal start of expression
+[15:37:39.109]   private final static char []_jsp_string3;
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:122: illegal start of expression
+[15:37:39.109]   private final static char []_jsp_string2;
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:123: illegal start of expression
+[15:37:39.109]   static {
+[15:37:39.109]   ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:129: ';' expected
+[15:37:39.109] }
+[15:37:39.109] ^
+[15:37:39.109] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:130: '}' expected
+[15:37:39.109] ^
+[15:37:39.109] 10 errors
+[15:39:50.780] Compiling _jsp/_viewfaults__jsp.java
+[15:39:50.796] /ViewFaults.jsp:68: '(' expected
+[15:39:50.796]             catch{Exception e}
+[15:39:50.796]                  ^
+[15:39:50.796] /ViewFaults.jsp:68: <identifier> expected
+[15:39:50.796]       out.write(_jsp_string4, 0, _jsp_string4.length);
+[15:39:50.796]                                                      ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:27: 'try' without 'catch' or 'finally'
+[15:39:50.796]     try {
+[15:39:50.796]     ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:69: illegal start of expression
+[15:39:50.796]   private java.util.ArrayList _caucho_depends = new java.util.ArrayList();
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:71: illegal start of expression
+[15:39:50.796]   public java.util.ArrayList _caucho_getDependList()
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:125: illegal start of expression
+[15:39:50.796]   private final static char []_jsp_string1;
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:126: illegal start of expression
+[15:39:50.796]   private final static char []_jsp_string4;
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:127: illegal start of expression
+[15:39:50.796]   private final static char []_jsp_string3;
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:128: illegal start of expression
+[15:39:50.796]   private final static char []_jsp_string2;
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:129: illegal start of expression
+[15:39:50.796]   static {
+[15:39:50.796]   ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:136: ';' expected
+[15:39:50.796] }
+[15:39:50.796] ^
+[15:39:50.796] d:\www\2012-ac31004\jamesrichmond\WEB-INF\work\_jsp\_viewfaults__jsp.java:137: '}' expected
+[15:39:50.796] ^
+[15:39:50.796] 12 errors
+[15:41:05.061] Compiling _jsp/_viewfaults__jsp.java
+[15:43:00.029] Compiling _jsp/_viewfaults__jsp.java
+[15:43:27.779] Compiling _jsp/_viewfaults__jsp.java
+[15:44:31.544] Compiling _jsp/_viewfaults__jsp.java
+[15:45:11.684] Compiling _jsp/_viewfaults__jsp.java
+[15:58:45.367] Compiling _jsp/_viewfaults__jsp.java
+[16:00:40.569] Compiling _jsp/_viewfaults__jsp.java
+[16:06:32.942] Compiling _jsp/_viewfaults__jsp.java
+[16:07:49.051] Compiling _jsp/_viewfaults__jsp.java
+[16:08:54.378] Compiling _jsp/_viewfaults__jsp.java
+[16:10:57.706] Compiling _jsp/_viewfaults__jsp.java
+[16:14:53.454] Compiling _jsp/_viewfaults__jsp.java
+[16:16:30.766] Compiling _jsp/_viewfaults__jsp.java
+[16:21:14.983] Compiling _jsp/_login__jsp.java
+[16:22:13.233] Compiling _jsp/_login__jsp.java
+[16:23:11.092] Compiling _jsp/_login__jsp.java
+[16:23:38.670] Compiling _jsp/_login__jsp.java
+[16:24:26.529] Compiling _jsp/_login__jsp.java
+[16:24:28.357] Compiling _jsp/_newlogin__jsp.java
+[16:29:36.761] Compiling _jsp/_login__jsp.java
+[16:35:28.181] Compiling _jsp/_reportfault__jsp.java
+[16:36:45.461] Compiling _jsp/_reportfault__jsp.java
+[16:42:28.740] Compiling _jsp/_reportfault__jsp.java
+[16:42:50.693] insert Data: init
+[16:52:08.127] Compiling _jsp/_login__jsp.java
+[17:01:28.889] Compiling _jsp/_dologin__jsp.java
+[17:04:46.154] Compiling _jsp/_dologin__jsp.java
+[17:05:41.685] Compiling _jsp/_dologin__jsp.java
+[17:12:46.026] Compiling _jsp/_login__jsp.java
+[17:14:29.572] Compiling _jsp/_login__jsp.java
+[17:21:28.835] Compiling _jsp/_login__jsp.java
+[17:21:33.194] Compiling _jsp/_dologin__jsp.java
+[17:25:42.364] Compiling _jsp/_dologin__jsp.java
+[17:39:29.765] Compiling _jsp/_dologin__jsp.java
+[17:39:30.265] Compiling _jsp/_login__jsp.java
+[17:42:54.123] Compiling _jsp/_success__jsp.java
+[17:45:11.529] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[17:45:11.529] resin-file: destroy
+[17:45:11.529] insert Data: destroy
+[17:45:32.216] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[17:45:32.263] resin-file: init
+[17:49:50.090] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] stopping
+[17:49:50.090] resin-file: destroy
+[17:51:23.292] WebApp[http://ac31004.computing.dundee.ac.uk/jamesrichmond] starting
+[17:51:23.355] resin-file: init
+[17:51:32.683] insert Data: init
